@@ -58,6 +58,7 @@
   environment.xfce.excludePackages = with pkgs.xfce; [
   ristretto
   parole
+  xfce4-taskmanager
 ];
 
   # Configure keymap in X11
@@ -117,6 +118,7 @@
      corectrl
      vim
      neovim
+     fortune
      fastfetch
      git
      btop
