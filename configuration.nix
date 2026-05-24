@@ -109,6 +109,7 @@
      unzip
      wget
      flatpak
+     corectrl
      vim
      neovim
      fastfetch
