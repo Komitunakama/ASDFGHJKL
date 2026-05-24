@@ -132,7 +132,7 @@
 
   shellAliases = {
     ls = "ls -lha";
-    clear = "clear && fastfetch"
+    clear = "clear && fastfetch";
   };
 
   interactiveShellInit = ''
