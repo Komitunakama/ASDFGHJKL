@@ -55,6 +55,11 @@
   services.xserver.displayManager.lightdm.enable = true;
   services.xserver.desktopManager.xfce.enable = true;
 
+  environment.xfce.excludePackages = with pkgs.xfce; [
+  ristretto
+  parole
+];
+
   # Configure keymap in X11
   services.xserver.xkb = {
     layout = "br";
