@@ -59,6 +59,7 @@
   ristretto
   parole
   xfce4-taskmanager
+  xfce4-taskmanager
 ];
 
   # Configure keymap in X11
@@ -118,7 +119,6 @@
      corectrl
      vim
      neovim
-     fortune
      fastfetch
      git
      btop
