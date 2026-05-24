@@ -131,6 +131,7 @@
   
   environment.shellAliases = {
   clear = "clear && fastfetch";
+  ls = "ls -lah";
    };
   
  # List services that you want to enable:
