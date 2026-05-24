@@ -127,7 +127,18 @@
   #   enable = true;
   #   enableSSHSupport = true;
   # };
+  programs.bash = {
+  enable = true;
 
+  shellAliases = {
+    ls = "ls -lha";
+    clear = "clear && fastfetch"
+  };
+
+  interactiveShellInit = ''
+    PS1='\u@\h:\w\$ '
+  '';
+};
   # List services that you want to enable:
 
   # Enable the OpenSSH daemon.
