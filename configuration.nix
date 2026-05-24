@@ -116,6 +116,7 @@
      btop
      gcc
      keepassxc
+     xclip
      gparted
      xfce.xfce4-whiskermenu-plugin
   ];
