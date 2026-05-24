@@ -138,6 +138,11 @@
   # Enable the OpenSSH daemon.
   # services.openssh.enable = true;
 
+  fileSystems."/mnt/NEGao" = {
+  device = "/dev/disk/by-uuid/99f0363f-a459-4d7d-8347-082b91f8399d";
+  fsType = "ext4";
+  };
+
   # Open ports in the firewall.
   # networking.firewall.allowedTCPPorts = [ ... ];
   # networking.firewall.allowedUDPPorts = [ ... ];
