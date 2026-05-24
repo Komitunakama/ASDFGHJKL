@@ -114,6 +114,7 @@
      fastfetch
      git
      btop
+     xdg-desktop-portal-gtk
      gcc
      keepassxc
      xclip
@@ -157,7 +158,10 @@
 
   services.flatpak.enable = true;
 
-  xdg.portal.enable = true;
+xdg.portal = {
+  enable = true;
+  extraPortals = [ pkgs.xdg-desktop-portal-gtk ];
+};
 
   # This value determines the NixOS release from which the default
   # settings for stateful data, like file locations and database versions
