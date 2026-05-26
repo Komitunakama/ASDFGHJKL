@@ -185,7 +185,6 @@ xdg.portal = {
    services.samba-wsdd.enable = false;
 
    # Impressão
-   services.printing.enable = false;
    services.avahi.enable = false;
 
    # Scanner (se existir)
