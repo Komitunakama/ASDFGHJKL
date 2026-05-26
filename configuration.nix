@@ -122,6 +122,7 @@
      neovim
      fastfetch
      ferdium
+     papirus-icon-theme
      git
      btop
      xdg-desktop-portal-gtk
