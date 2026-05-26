@@ -186,6 +186,7 @@ xdg.portal = {
 
    # Impressão
    services.avahi.enable = false;
+   systemd.sockets.cups.enable = false;
 
    # Scanner (se existir)
    hardware.sane.enable = false;
