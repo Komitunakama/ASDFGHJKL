@@ -179,6 +179,18 @@ xdg.portal = {
   # this value at the release version of the first install of this system.
   # Before changing this value read the documentation for this option
   # (e.g. man configuration.nix or on https://nixos.org/nixos/options.html).
+  # Samba / SMB
+
+   services.samba.enable = false;
+   services.samba-wsdd.enable = false;
+
+   # Impressão
+   services.printing.enable = false;
+   services.avahi.enable = false;
+
+   # Scanner (se existir)
+   hardware.sane.enable = false;
+  
   system.stateVersion = "25.11"; # Did you read the comment?
   
   programs.steam.enable = true;
