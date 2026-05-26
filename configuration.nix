@@ -121,7 +121,7 @@
      vim
      neovim
      fastfetch
-     zapzap
+     ferdium
      git
      btop
      xdg-desktop-portal-gtk
