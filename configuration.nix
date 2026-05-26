@@ -121,7 +121,7 @@
      vim
      neovim
      fastfetch
-     ferdium
+     zapzap
      papirus-icon-theme
      git
      btop
