@@ -56,7 +56,7 @@
   services.xserver.displayManager.lightdm.enable = true;
   services.xserver.desktopManager.xfce.enable = true;
 
-  environment.xfce.excludePackages = with pkgs.; [
+  environment.xfce.excludePackages = with pkgs; [
   ristretto
   parole
   xfce4-taskmanager
