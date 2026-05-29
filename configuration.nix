@@ -142,7 +142,7 @@
   # };
   #
   environment.shellAliases = {
-  clear = "clear && fastfetch";
+  clear = "clear && fastfetch --logo nixos_old";
   };
 
   programs.bash = {
