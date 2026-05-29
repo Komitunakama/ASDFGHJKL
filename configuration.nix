@@ -60,7 +60,7 @@
   ristretto
   parole
   xfce4-taskmanager
-  xfce4-taskmanager
+
 ];
 
   # Configure keymap in X11
@@ -185,7 +185,14 @@ xdg.portal = {
    services.samba.enable = false;
    services.samba-wsdd.enable = false;
 
+   programs.gamemode.enable = true;
+   services.udisks2.enable = true;
+   services.gvfs.enable = true;
+   programs.appimage.enable = true;
+   programs.appimage.binfmt = true;
+   
    # Impressão
+   
    services.avahi.enable = false;
    systemd.sockets.cups.enable = false;
 
