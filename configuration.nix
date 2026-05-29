@@ -141,23 +141,20 @@
   #   enableSSHSupport = true;
   # };
   #
-  environment.shellAliases = {
-  clear = "clear && fastfetch";
-  };
-
-  programs.bash = {
+ 
+programs.bash = {
   enable = true;
+
   shellAliases = {
     ls = "ls -lah --color=auto";
-    };
+    clear = "clear && fastfetch";
   };
 
-  programs.bash = {
-  enable = true;
   interactiveShellInit = ''
     fastfetch
   '';
-  };
+};
+
  # List services that you want to enable:
 
   # Enable the OpenSSH daemon.
