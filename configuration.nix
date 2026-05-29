@@ -56,7 +56,7 @@
   services.xserver.displayManager.lightdm.enable = true;
   services.xserver.desktopManager.xfce.enable = true;
 
-  environment.xfce.excludePackages = with pkgs.xfce; [
+  environment.xfce.excludePackages = with pkgs.; [
   ristretto
   parole
   xfce4-taskmanager
@@ -130,7 +130,7 @@
      keepassxc
      xclip
      gparted
-     xfce.xfce4-whiskermenu-plugin
+     pkgs.xfce4-whiskermenu-plugin
   ];
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
   # Some programs need SUID wrappers, can be configured further or are
