@@ -142,7 +142,7 @@
   # };
   #
   environment.shellAliases = {
-  clear = "clear && fastfetch --logo nixos_old";
+  clear = "clear && fastfetch";
   };
 
   programs.bash = {
@@ -150,6 +150,13 @@
   shellAliases = {
     ls = "ls -lah --color=auto";
     };
+  };
+
+  programs.bash = {
+  enable = true;
+  interactiveShellInit = ''
+    fastfetch
+  '';
   };
  # List services that you want to enable:
 
