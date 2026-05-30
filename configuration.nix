@@ -122,6 +122,7 @@
      neovim
      fastfetch
      zapzap
+     ffmpeg
      papirus-icon-theme
      git
      btop
