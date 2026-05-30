@@ -122,9 +122,6 @@
      neovim
      fastfetch
      zapzap
-     sassc
-     gtk-engine-murrine
-     gnome-themes-extra
      ffmpeg
      papirus-icon-theme
      git
