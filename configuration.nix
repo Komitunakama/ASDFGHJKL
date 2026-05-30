@@ -115,8 +115,8 @@
   # $ nix search wget
   environment.systemPackages = with pkgs; [
      unzip
-     wget
-     flatpak
+     wget]
+     #flatpak
      corectrl
      vim
      neovim
@@ -173,7 +173,8 @@ programs.bash = {
   # Or disable the firewall altogether.
   # networking.firewall.enable = false;
 
-  services.flatpak.enable = true;
+  services.flatpak.enable = false;
+  #services.flatpak.enable = true;
 
 xdg.portal = {
   enable = true;
