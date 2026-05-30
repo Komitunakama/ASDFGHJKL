@@ -125,6 +125,7 @@
      ffmpeg
      papirus-icon-theme
      git
+     mpv
      btop
      xdg-desktop-portal-gtk
      gcc
