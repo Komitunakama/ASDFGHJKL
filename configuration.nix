@@ -60,7 +60,7 @@
   ristretto
   parole
   xfce4-taskmanager
-
+  xfce4-icon-theme
 ];
 
   # Configure keymap in X11
