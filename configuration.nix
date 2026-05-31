@@ -53,7 +53,11 @@
   services.xserver.enable = true;
   
   # Enable the XFCE Desktop Environment.
-  services.xserver.displayManager.lightdm.enable = true;
+  services.xserver.displayManager.lightdm = {
+  enable = true;
+  greeters.gtk.enable = true;
+  };
+  services.xserver.displayManager.lightdm.background = "/etc/WALLPAPERDOLIGHTDM/nix-wallpaper-nineish-dark-gray.png";
   services.xserver.desktopManager.xfce.enable = true;
 
   environment.xfce.excludePackages = with pkgs; [
