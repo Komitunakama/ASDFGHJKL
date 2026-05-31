@@ -115,7 +115,7 @@
   # $ nix search wget
   environment.systemPackages = with pkgs; [
      unzip
-     wget]
+     wget
      #flatpak
      corectrl
      vim
@@ -132,7 +132,7 @@
      keepassxc
      xclip
      gparted
-     pkgs.xfce4-whiskermenu-plugin
+     xfce4-whiskermenu-plugin
   ];
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
   # Some programs need SUID wrappers, can be configured further or are
@@ -178,7 +178,10 @@ programs.bash = {
 
 xdg.portal = {
   enable = true;
-  extraPortals = [ pkgs.xdg-desktop-portal-gtk ];
+  extraPortals = with pkgs; [
+    xdg-desktop-portal-gtk
+    xdg-desktop-portal
+  ];
 };
 
   # This value determines the NixOS release from which the default
@@ -209,4 +212,6 @@ xdg.portal = {
   system.stateVersion = "25.11"; # Did you read the comment?
   
   programs.steam.enable = true;
+  hardware.graphics.enable32Bit = true;
+  hardware.opengl.driSupport32Bit = true;
 }
