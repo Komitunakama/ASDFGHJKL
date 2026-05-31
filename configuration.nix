@@ -192,7 +192,7 @@ xdg.portal = {
   # (e.g. man configuration.nix or on https://nixos.org/nixos/options.html).
   # Samba / SMB
 
-   services.samba.enable = false;
+ services.samba.enable = false;
    services.samba-wsdd.enable = false;
 
    programs.gamemode.enable = true;
@@ -212,9 +212,5 @@ xdg.portal = {
   system.stateVersion = "25.11"; # Did you read the comment?
   
   programs.steam.enable = true;
-  hardware.graphics.enable32Bit = true;
-  hardware.graphics = {
-  enable = true;
-  enable32Bit = true;
-   };
+  hardware.graphics.enable32Bit = true; 
 }
