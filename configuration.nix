@@ -126,7 +126,7 @@
      neovim
      fastfetch
      imagemagick
-     alacritty
+     kitty
      zapzap
      ffmpeg
      papirus-icon-theme
