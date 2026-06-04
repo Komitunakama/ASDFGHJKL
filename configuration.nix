@@ -127,7 +127,6 @@
      fastfetch
      imagemagick
      kitty
-     labwc
      zapzap
      ffmpeg
      papirus-icon-theme
