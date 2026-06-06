@@ -131,6 +131,9 @@
      lsof
      xarchiver
      zapzap
+     libxfce4util
+     xfconf
+     exo
      ffmpeg
      thunar-archive-plugin
      thunar-volman
