@@ -132,6 +132,8 @@
      xarchiver
      zapzap
      ffmpeg
+     thunar-archive-plugin
+     thunar-volman
      papirus-icon-theme
      git
      mpv
