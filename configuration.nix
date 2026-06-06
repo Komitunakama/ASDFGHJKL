@@ -128,6 +128,8 @@
      imagemagick
      kitty
      psmisc
+     lsof
+     xarchiver
      zapzap
      ffmpeg
      papirus-icon-theme
