@@ -133,7 +133,6 @@
      libxfce4util
      xfconf
      exo
-     mugshot
      ffmpeg
      thunar-archive-plugin
      thunar-volman
