@@ -63,7 +63,6 @@
   environment.xfce.excludePackages = with pkgs; [
   ristretto
   parole
-  xfce4-taskmanager
   xfce4-icon-theme
 ];
 
@@ -134,6 +133,7 @@
      libxfce4util
      xfconf
      exo
+     mugshot
      ffmpeg
      thunar-archive-plugin
      thunar-volman
