@@ -128,6 +128,7 @@
      kitty
      psmisc
      lsof
+     evince
      xarchiver
      zapzap
      libxfce4util
