@@ -225,5 +225,11 @@ xdg.portal = {
   system.stateVersion = "25.11"; # Did you read the comment?
   
   programs.steam.enable = true;
-  hardware.graphics.enable32Bit = true; 
+  hardware.graphics.enable32Bit = true;
+
+  nix.settings.substituters = [
+    "https://mirrors.tuna.tsinghua.edu.cn/nix-channels/store"
+    "https://cache.nixos.org"
+  ];
+
 }
