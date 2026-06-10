@@ -131,6 +131,7 @@
      xarchiver
      zapzap
      libxfce4util
+     python3
      xfconf
      exo
      ffmpeg
